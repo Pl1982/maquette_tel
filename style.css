@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,500&display=swap');
+
+@font-face {
+      font-family: 'Foobar';
+      font-style: normal;
+      font-weight: normal;
+      src: local('Foobar Pro Regular'), url('../fonts/Foobar\ Pro-Regular.woff') format('woff');
+      font-display: swap;
+}
+
+
+:root {
+      --primary: #95d1cc;
+      --secondary: #22577e;
+      --white: #f9f9f9;
+      --border-radius: 5px;
+      --box-shadow-default: 1px 1px 30px -10px rgba(0, 0, 0, .7);
+}
+
+
+/********************RESET CSS DEFAULT= TOUS LES ELEMENTS PAR DEFAUT***************************/
+* {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+}
+
+/********************************STRUCTURE ********************************/
+
+a {
+      text-decoration: none;
+      color: inherit;
+      display: inline-block;
+}
+
+.container {
+      width: 90%;
+      margin: auto;
+}
+
+/********************************NAVBAR****************/
+
+.navbar {
+      background-color: var(--primary);
+      position: sticky;
+      top: 0;
+      width: 100%;
+      z-index: 9999999;
+      text-decoration: none;
+      color: red;
+}
+
+.navbar-content {
+      padding: 10px 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
+
+.logo {
+      width: 50px;
+}
+
+.line {
+      display: flex;
+      gap: 15px;
+      list-style: none;
+}
+
+.banner {
+      display: flex;
+      align-items: center;
+      /*a mettre sur le parents centre au milleu de la page********************************/
+}
+
+.btn {
+      background-color: blue;
+      border-radius: 30px;
+      padding: .5em;
+
+}
+
+.banner-content,
+.telephone1 {
+      width: 48%;
+}
+
+.logo {
+      width: 20%;
+}
+
+.banner-content h1 {
+      font-size: 4em;
+}
+
+.banner-content p {
+      font-size: 1.5em;
+}
+
+.logo {
+      margin-top: 2em;
+}
