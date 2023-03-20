@@ -80,10 +80,68 @@ a {
 
 }
 
+.telephone1,
+.telephone_1 {
+      margin-top: 5em;
+      text-align: center;
+      position: relative;
+      width: 50%;
+
+}
+
 .banner-content,
 .telephone1 {
       width: 48%;
 }
+
+/* .telephone1 img {
+      position: relative;
+      z-index: 1;
+} */
+
+.bg-square-about-1 {
+      background-color: blue;
+      width: 65%;
+      height: 88%;
+      position: absolute;
+      border-radius: 50%;
+      top: 10%;
+      left: 18%;
+      z-index: -1;
+}
+
+.bg-square-about-2 {
+      background-color: blue;
+      width: 2%;
+      height: 2%;
+      border-radius: 50%;
+      position: absolute;
+      top: 1%;
+      left: 79%;
+}
+
+.bg-square-about-3 {
+      background-color: blue;
+      width: 1%;
+      height: 3%;
+      border-radius: 120px;
+      position: absolute;
+      top: 93%;
+      right: 79%;
+      rotate: 45deg;
+}
+
+.bg-square-about-4 {
+      background-color: blue;
+      width: 1%;
+      height: 3%;
+      border-radius: 120px;
+      position: absolute;
+      top: 93%;
+      right: 79%;
+      rotate: 135deg;
+}
+
 
 .logo {
       width: 20%;
@@ -99,4 +157,81 @@ a {
 
 .logo {
       margin-top: 2em;
+}
+
+/*********************************BANNER********************************/
+.banner2 {
+      background: rgb(46, 37, 200);
+      background: linear-gradient(76deg, rgba(46, 37, 200, 1) 0%, rgba(145, 0, 255, 1) 100%);
+      width: 98%;
+      margin: auto;
+
+}
+
+.banner_2 {
+      margin: 2em;
+      color: wheat;
+      font-size: 2.5em;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 8em;
+
+}
+
+.logo2 {
+      flex-direction: column;
+      width: 17%;
+      margin-top: 1em;
+}
+
+.narrowbanner_2 {
+      width: 60%;
+      margin: auto;
+}
+
+/**************************************************BANNER2*******************************/
+.telephone_1 .bg-square-about-1 {
+      background-color: blue;
+      width: 65%;
+      height: 88%;
+      position: absolute;
+      border-radius: 50%;
+      top: 5%;
+      left: 3%;
+      z-index: -1;
+}
+
+.telephone_1 .bg-square-about-2 {
+      background-color: blue;
+      width: 2%;
+      height: 2%;
+      border-radius: 50%;
+      position: absolute;
+      top: 1%;
+      left: 79%;
+}
+
+.telephone_1 .bg-square-about-3 {
+      background-color: blue;
+      width: 1%;
+      height: 3%;
+      border-radius: 120px;
+      position: absolute;
+      top: 93%;
+      right: 79%;
+      rotate: 45deg;
+}
+
+.telephone_1 .bg-square-about-4 {
+      background-color: blue;
+      width: 1%;
+      height: 3%;
+      border-radius: 120px;
+      position: absolute;
+      top: 93%;
+      right: 79%;
+      rotate: 135deg;
 }
